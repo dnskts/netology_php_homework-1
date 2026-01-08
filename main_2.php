@@ -7,3 +7,5 @@ $text = <<<TEXT
 TEXT;
 
 echo $text . PHP_EOL;
+
+echo 'Файл: ' . basename(__FILE__) . PHP_EOL;
